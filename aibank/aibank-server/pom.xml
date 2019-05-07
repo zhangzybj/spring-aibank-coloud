@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.springboot.cloud</groupId>
-    <artifactId>producer</artifactId>
+    <artifactId>aibank-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>producer</name>
+    <name>aibank-server</name>
 
     <parent>
         <groupId>com.springboot.cloud</groupId>

@@ -16,9 +16,9 @@
     </parent>
 
     <modules>
-        <module>consumer-feign</module>
-        <module>consumer-ribbon</module>
-        <module>producer</module>
+<!--        <module>consumer-feign</module>-->
+<!--        <module>consumer-ribbon</module>-->
+        <module>aibank-server</module>
 <!--        <module>producer-jpa</module>-->
     </modules>
 
