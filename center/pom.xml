@@ -18,8 +18,8 @@
     </parent>
 
     <modules>
-        <module>bus</module>
-        <module>config</module>
-        <module>eureka</module>
+        <module>bus-server</module>
+        <module>config-server</module>
+        <module>eureka-server</module>
     </modules>
 </project>
