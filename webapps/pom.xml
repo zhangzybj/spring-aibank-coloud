@@ -9,7 +9,6 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <name>webapps</name>
-    <description>Demo Webapps project for Spring Boot</description>
 
     <parent>
         <artifactId>cloud</artifactId>

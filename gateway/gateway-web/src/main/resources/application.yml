@@ -10,12 +10,18 @@ spring:
   application:
     name: gateway
   rabbitmq:
-    host: ${RABBIT_MQ_HOST:localhost}
+    host: ${RABBIT_MQ_HOST:192.168.0.63}
     port: ${RABBIT_MQ_PORT:5672}
-    username: ${RABBIT_MQ_USERNAME:guest}
-    password: ${RABBIT_MQ_PASSWORD:guest}
+    username: ${RABBIT_MQ_USERNAME:scapital}
+    password: ${RABBIT_MQ_PASSWORD:wmwbQImLOD5d}
+    virtual-host: test1
+#  rabbitmq:
+#    host: ${RABBIT_MQ_HOST:localhost}
+#    port: ${RABBIT_MQ_PORT:5672}
+#    username: ${RABBIT_MQ_USERNAME:guest}
+#    password: ${RABBIT_MQ_PASSWORD:guest}
   redis:
-    host: ${REDIS_HOST:localhost}
+    host: ${REDIS_HOST:39.97.96.187}
     port: ${REDIS_PORT:6379}
     #password: ${REDIS_PASSWORD:}
 

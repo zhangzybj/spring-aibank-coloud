@@ -10,10 +10,16 @@ spring:
   application:
     name: config-server
   rabbitmq:
-    host: ${RABBIT_MQ_HOST:localhost}
+    host: ${RABBIT_MQ_HOST:192.168.0.63}
     port: ${RABBIT_MQ_PORT:5672}
-    username: ${RABBIT_MQ_USERNAME:guest}
-    password: ${RABBIT_MQ_PASSWORD:guest}
+    username: ${RABBIT_MQ_USERNAME:scapital}
+    password: ${RABBIT_MQ_PASSWORD:wmwbQImLOD5d}
+    virtual-host: test1
+#  rabbitmq:
+#    host: ${RABBIT_MQ_HOST:localhost}
+#    port: ${RABBIT_MQ_PORT:5672}
+#    username: ${RABBIT_MQ_USERNAME:guest}
+#    password: ${RABBIT_MQ_PASSWORD:guest}
   cloud:
     config:
       server:

@@ -9,7 +9,6 @@
     <packaging>jar</packaging>
 
     <name>authentication-server</name>
-    <description>Demo Oauth2 project for Spring Cloud Oauth2 Authentication Server</description>
 
     <parent>
         <groupId>com.springboot.cloud</groupId>
@@ -28,6 +27,13 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-security</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.16</version>
+        </dependency>
+
     </dependencies>
 
     <build>

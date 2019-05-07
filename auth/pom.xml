@@ -9,7 +9,6 @@
     <packaging>pom</packaging>
 
     <name>auth</name>
-    <description>Demo Auth project for Spring Boot</description>
 
     <parent>
         <groupId>com.springboot.cloud</groupId>

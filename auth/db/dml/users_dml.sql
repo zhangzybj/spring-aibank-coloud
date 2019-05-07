@@ -11,6 +11,13 @@ VALUES (101, 'ADMIN', '超级管理员', '公司IT总负责人', now(), now(), '
   (102, 'FIN', '财务', '财务', now(), now(), 'system', 'system'),
   (103, 'IT', 'IT', 'IT角色', now(), now(), 'system', 'system');
 --资源
+
+-- INSERT INTO resources (id, code, type, name, url, method, description, created_time, updated_time, created_by, updated_by)
+-- VALUES
+-- (101, 'user_manager:btn_add', 'button',  '新增','/users', 'POST', '新增用户功能', now(), now(), 'system', 'system'),
+--   (102,  'user_manager:btn_edit', 'button', '编辑','/users', 'PUT', '编辑用户功能', now(), now(), 'system', 'system'),
+--   (103,  'user_manager:btn_del', 'button', '删除','/users/{id}', 'DELETE', '删除用户功能', now(), now(), 'system', 'system'),
+--   (104,  'user_manager:view', 'url', '查看','/users/{id}', 'GET', '查询用户功能', now(), now(), 'system', 'system');
 INSERT INTO resources (id, name, code, type, url, method, description, created_time, updated_time, created_by, updated_by)
 VALUES (101, '新增', 'user_manager:btn_add', 'button', '/users', 'POST', '新增用户功能', now(), now(), 'system', 'system'),
   (102, '编辑', 'user_manager:btn_edit', 'button', '/users', 'PUT', '编辑用户功能', now(), now(), 'system', 'system'),

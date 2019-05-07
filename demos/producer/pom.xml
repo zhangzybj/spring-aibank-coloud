@@ -9,7 +9,6 @@
     <packaging>jar</packaging>
 
     <name>producer</name>
-    <description>Demo Project for Spring Cloud Producer</description>
 
     <parent>
         <groupId>com.springboot.cloud</groupId>
@@ -70,6 +69,14 @@
             <artifactId>spring-cloud-starter-contract-verifier</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.16</version>
+        </dependency>
+
     </dependencies>
 
     <build>
