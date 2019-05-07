@@ -4,29 +4,33 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.springboot.cloud</groupId>
-    <artifactId>consumer-feign</artifactId>
+    <artifactId>aibank</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
-    <name>feign-consumer</name>
-    <description>Demo Project for Spring Cloud Feign Consumer</description>
-
+    <name>aibank</name>
     <parent>
         <groupId>com.springboot.cloud</groupId>
-        <artifactId>demos</artifactId>
+        <artifactId>cloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
+    <modules>
+        <module>consumer-feign</module>
+        <module>consumer-ribbon</module>
+        <module>producer</module>
+<!--        <module>producer-jpa</module>-->
+    </modules>
+
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <groupId>com.springboot.cloud</groupId>
+            <artifactId>core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-contract-stub-runner</artifactId>
-            <scope>test</scope>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
-
 </project>

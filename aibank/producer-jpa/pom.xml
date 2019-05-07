@@ -9,11 +9,10 @@
     <packaging>jar</packaging>
 
     <name>producer-jpa</name>
-    <description>Demo project for Spring Cloud Producer</description>
 
     <parent>
         <groupId>com.springboot.cloud</groupId>
-        <artifactId>demos</artifactId>
+        <artifactId>aibank</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
