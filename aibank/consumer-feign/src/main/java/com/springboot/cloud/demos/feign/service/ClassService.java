@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Map;
 
-@FeignClient(name = "producer", fallback = ClassServiceFallback.class)
+@FeignClient(name = "aibank-server", fallback = ClassServiceFallback.class)
 public interface ClassService {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)

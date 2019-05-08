@@ -15,15 +15,11 @@
         <module>center</module>
 <!--        <module>common</module>-->
 <!--        <module>gateway</module>-->
-<!--        <module>webapps</module>-->
-<!--        <module>monitor</module>-->
-<!--        <module>sysadmin</module>-->
         <module>aibank</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
-            <!--支持Spring Boot 2.1.X-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
