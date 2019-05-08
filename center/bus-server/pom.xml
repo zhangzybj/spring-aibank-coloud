@@ -9,10 +9,9 @@
     <packaging>jar</packaging>
 
     <name>bus-server</name>
-    <description>Demo project for Spring Cloud Bus Server</description>
 
     <parent>
-        <groupId>com.springboot.cloud</groupId>
+        <groupId>com.scapital.cloud</groupId>
         <artifactId>center</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>

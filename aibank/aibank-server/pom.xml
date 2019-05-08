@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.springboot.cloud</groupId>
+    <groupId>com.scapital.cloud</groupId>
     <artifactId>aibank-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -11,7 +11,7 @@
     <name>aibank-server</name>
 
     <parent>
-        <groupId>com.springboot.cloud</groupId>
+        <groupId>com.scapital.cloud</groupId>
         <artifactId>aibank</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -25,7 +25,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.springboot.cloud</groupId>
+            <groupId>com.scapital.cloud</groupId>
             <artifactId>web</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
@@ -117,7 +117,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <!-- Provide the base class for your auto-generated tests -->
-                    <baseClassForTests>com.springboot.cloud.demos.producer.MvcMockTest</baseClassForTests>
+                    <baseClassForTests>com.scapital.aibank.server.MvcMockTest</baseClassForTests>
                 </configuration>
             </plugin>
             <!--docker镜像build插件-->

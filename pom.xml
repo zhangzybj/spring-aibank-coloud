@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.springboot.cloud</groupId>
+    <groupId>com.scapital.cloud</groupId>
     <artifactId>cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -13,7 +13,7 @@
     <modules>
         <module>auth</module>
         <module>center</module>
-<!--        <module>common</module>-->
+        <module>common</module>
 <!--        <module>gateway</module>-->
         <module>aibank</module>
     </modules>
