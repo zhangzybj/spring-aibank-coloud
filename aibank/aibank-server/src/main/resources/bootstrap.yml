@@ -1,6 +1,6 @@
 spring:
   application:
-    name: producer
+    name: aibank-server
   cloud:
     config:
       name: eureka-producer
